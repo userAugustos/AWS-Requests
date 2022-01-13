@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "cep-serveless"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-qegza5feco4d"
+s3_prefix = "cep-serveless"
+region = "sa-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
